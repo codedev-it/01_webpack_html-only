@@ -1,0 +1,19 @@
+{
+  "name": "01_webpack_htmlonly",
+  "version": "1.0.0",
+  "description": "webpack - HTML only",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config=config/webpack.config.js",
+    "build":"webpack --config=config/webpack.config.js"
+  },
+  "author": "Codedev.it",
+  "license": "MIT",
+  "devDependencies": {
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
