@@ -4,8 +4,10 @@
   "description": "webpack - HTML only",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --config=config/webpack.config.js",
-    "build":"webpack --config=config/webpack.config.js"
+    "start": "node server.js",
+    "dev":"webpack-dev-server --config=config/webpack.config.js",
+    "build":"webpack --config=config/webpack.config.js",
+    "heroku-postbuild": "webpack -p" 
   },
   "author": "Codedev.it",
   "license": "MIT",
