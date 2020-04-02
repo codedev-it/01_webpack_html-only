@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config=config/webpack.config.js",
     "postinstall": "webpack -p --config=config/webpack.config.js --progress",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "author": "Codedev.it",
   "license": "MIT",
