@@ -1,2 +1,3 @@
 import { name } from "./name";
-console.log(name('Peronal Name'))
+console.log(name('Lilian'))
+alert('helloworld')
