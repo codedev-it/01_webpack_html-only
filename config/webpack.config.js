@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+//helloworld
 module.exports={
     entry:{
         main:"./src/main.js"
